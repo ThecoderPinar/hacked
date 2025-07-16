@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cihaz Ele Geçirildi</title>
+    <title>ELE GEÇİRİLDİN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background: black;
+        color: red;
+        font-family: monospace;
+        text-align: center;
+        padding-top: 20%;
+        font-size: 1.5em;
+      }
+      .blink {
+        animation: blink 0.7s infinite;
+      }
+      @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+    </style>
   </head>
-  <body style="background:black; color:red; text-align:center; padding-top:30%;">
-    <h1>😈 SIZMA TESTI</h1>
-    <p>Bu cihaz artık kontrolümüzde.</p>
+  <body>
+    <h1 class="blink">⚠️ CİHAZ ELE GEÇİRİLDİ ⚠️</h1>
+    <p>IP, Konum, Kamera erişimi sağlandı.<br><br>Bu bir uyarıdır.<br>Her hareketiniz izleniyor.</p>
+    <p style="margin-top: 40px; font-size: 0.7em;">Hack by ThecoderPinar</p>
   </body>
 </html>
